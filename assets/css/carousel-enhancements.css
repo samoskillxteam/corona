@@ -1,4 +1,32 @@
-/* Static Site Enhancements & Carousel Styles */
+/* Static Site Enhancements, Carousels & Hero Backgrounds */
+
+/* Hero Background Slideshow & Video Fallback */
+section[data-settings*="slideshow"],
+section[data-settings*="video"] {
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative !important;
+}
+
+section[data-settings*="slideshow"] > .elementor-container,
+section[data-settings*="video"] > .elementor-container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.elementor-background-overlay {
+    z-index: 1 !important;
+}
+
+/* About page hero specific styling */
+.elementor-element-40f82713 {
+    background-image: url('wp-content/uploads/2023/12/top2-min.jpg');
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative !important;
+}
+
+/* Client Logo Carousel Styles */
 .elementor-carousel-image {
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -8,31 +36,6 @@
     display: block !important;
 }
 
-/* Hero Background Slideshow Fallback */
-.elementor-element-40f82713 {
-    background-image: url('wp-content/uploads/2023/12/top2-min.jpg');
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
-
-.elementor-element-40f82713::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(15, 10, 25, 0.45);
-    z-index: 0;
-}
-
-.elementor-element-40f82713 > .elementor-container {
-    position: relative;
-    z-index: 1;
-}
-
-/* Ensure Swiper slides display properly */
 .elementor-main-swiper.swiper {
     overflow: hidden !important;
     position: relative !important;
