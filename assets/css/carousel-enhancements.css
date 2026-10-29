@@ -26,6 +26,16 @@ section[data-settings*="video"] > .elementor-container {
     position: relative !important;
 }
 
+/* Remove dark silhouette overlay from About page Core Values card */
+.elementor-element.elementor-element-decad62 > .elementor-element-populated > .elementor-background-overlay {
+    display: none !important;
+}
+
+.elementor-element.elementor-element-decad62:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+    background: linear-gradient(180deg, #480A54 0%, #360540 100%) !important;
+    border-radius: 6px;
+}
+
 /* Client Logo Carousel Styles */
 .elementor-carousel-image {
     background-position: center center !important;
