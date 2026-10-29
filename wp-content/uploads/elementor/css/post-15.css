@@ -1,1 +1,96 @@
 /* post-15.css */
+.elementor-15 .elementor-element.elementor-element-3f8780fa {
+    padding: 240px 20px 140px 20px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.elementor-15 .elementor-element.elementor-element-41ec8d38 {
+    max-width: 480px;
+    margin: 0 0 0 6%;
+}
+.elementor-15 .elementor-element.elementor-element-41ec8d38:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+    background-color: #A54380;
+    border-radius: 8px;
+    padding: 28px 32px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+.elementor-15 .elementor-element.elementor-element-78b52a7a p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+.elementor-15 .elementor-element.elementor-element-5088564c {
+    padding: 80px 20px 100px 20px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.elementor-15 .elementor-element.elementor-element-5088564c > .elementor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.elementor-15 .elementor-element.elementor-element-7790f113,
+.elementor-15 .elementor-element.elementor-element-2a66b529,
+.elementor-15 .elementor-element.elementor-element-2bb2cc99 {
+    flex: 1 1 30%;
+    max-width: 33%;
+    min-width: 280px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.elementor-15 .elementor-element.elementor-element-748a54aa .elementor-heading-title,
+.elementor-15 .elementor-element.elementor-element-436c16 .elementor-heading-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #480A54;
+    margin-bottom: 22px;
+}
+.elementor-15 .elementor-element.elementor-element-4aa74957 .elementor-heading-title,
+.elementor-15 .elementor-element.elementor-element-48755974 .elementor-heading-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #A54380;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.elementor-15 .elementor-element.elementor-element-5f4b4559 p,
+.elementor-15 .elementor-element.elementor-element-7ad38ac8 p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444444;
+    margin-bottom: 12px;
+}
+@media (max-width: 921px) {
+    .elementor-15 .elementor-element.elementor-element-3f8780fa {
+        padding: 140px 16px 50px 16px !important;
+    }
+    .elementor-15 .elementor-element.elementor-element-41ec8d38 {
+        max-width: 100% !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .elementor-15 .elementor-element.elementor-element-5088564c {
+        padding: 40px 16px 60px 16px !important;
+    }
+    .elementor-15 .elementor-element.elementor-element-5088564c > .elementor-container {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+    .elementor-15 .elementor-element.elementor-element-7790f113,
+    .elementor-15 .elementor-element.elementor-element-2a66b529,
+    .elementor-15 .elementor-element.elementor-element-2bb2cc99 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .elementor-15 .elementor-element.elementor-element-2a66b529 .elementor-widget-wrap {
+        background: #fbf9fb !important;
+        border: 1px solid #ede4ef !important;
+        border-radius: 12px !important;
+        padding: 24px 18px !important;
+    }
+}

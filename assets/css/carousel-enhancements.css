@@ -75,3 +75,171 @@ section[data-settings*="video"] > .elementor-container {
     background-position: center !important;
     height: 400px !important;
 }
+
+/* Contact Page Enhancements (Desktop & Mobile) */
+.elementor-15 .elementor-element.elementor-element-3f8780fa {
+    padding: 240px 20px 140px 20px !important;
+    position: relative;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-41ec8d38 {
+    max-width: 480px;
+    margin: 0 0 0 6%;
+}
+
+.elementor-15 .elementor-element.elementor-element-41ec8d38:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+    background-color: #A54380 !important;
+    border-radius: 8px !important;
+    padding: 28px 32px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-78b52a7a p {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    font-family: inherit;
+}
+
+.elementor-15 .elementor-element.elementor-element-5088564c {
+    padding: 80px 20px 100px 20px !important;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.elementor-15 .elementor-element.elementor-element-5088564c > .elementor-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 30px !important;
+    justify-content: space-between !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-7790f113,
+.elementor-15 .elementor-element.elementor-element-2a66b529,
+.elementor-15 .elementor-element.elementor-element-2bb2cc99 {
+    flex: 1 1 30% !important;
+    max-width: 33% !important;
+    min-width: 280px !important;
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-748a54aa .elementor-heading-title,
+.elementor-15 .elementor-element.elementor-element-436c16 .elementor-heading-title {
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    color: #480A54 !important;
+    margin-bottom: 22px !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-4aa74957 .elementor-heading-title,
+.elementor-15 .elementor-element.elementor-element-48755974 .elementor-heading-title {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #A54380 !important;
+    margin-top: 24px !important;
+    margin-bottom: 8px !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-5f4b4559 p,
+.elementor-15 .elementor-element.elementor-element-7ad38ac8 p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    color: #444444 !important;
+    margin-bottom: 12px !important;
+}
+
+.elementor-15 .elementor-element.elementor-element-935b126 .elementor-social-icons-wrapper {
+    display: flex !important;
+    gap: 12px !important;
+    flex-wrap: wrap !important;
+    margin-top: 10px !important;
+}
+
+.elementor-15 .elementor-social-icon {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    background-color: #480A54 !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    transition: all 0.25s ease !important;
+}
+
+.elementor-15 .elementor-social-icon:hover {
+    background-color: #b10097 !important;
+    transform: translateY(-2px);
+}
+
+.elementor-15 .elementor-element.elementor-element-38b1c6b2 iframe {
+    width: 100% !important;
+    height: 380px !important;
+    border-radius: 10px !important;
+    border: 1px solid #e2d9e2 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06) !important;
+}
+
+/* Mobile & Tablet Specific Adjustments */
+@media (max-width: 921px) {
+    .elementor-15 .elementor-element.elementor-element-3f8780fa {
+        padding: 140px 16px 50px 16px !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-41ec8d38 {
+        max-width: 100% !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-41ec8d38:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap {
+        padding: 20px 22px !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-78b52a7a p {
+        font-size: 14.5px !important;
+        line-height: 1.55 !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-5088564c {
+        padding: 40px 16px 60px 16px !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-5088564c > .elementor-container {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-7790f113,
+    .elementor-15 .elementor-element.elementor-element-2a66b529,
+    .elementor-15 .elementor-element.elementor-element-2bb2cc99 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-2a66b529 .elementor-widget-wrap {
+        background: #fbf9fb !important;
+        border: 1px solid #ede4ef !important;
+        border-radius: 12px !important;
+        padding: 24px 18px !important;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04) !important;
+    }
+
+    .elementor-15 .wpforms-submit-container button.wpforms-submit {
+        width: 100% !important;
+        padding: 14px 20px !important;
+        text-align: center !important;
+    }
+
+    .elementor-15 .elementor-element.elementor-element-38b1c6b2 iframe {
+        height: 320px !important;
+    }
+}
+
