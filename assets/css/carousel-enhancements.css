@@ -1,0 +1,64 @@
+/* Static Site Enhancements & Carousel Styles */
+.elementor-carousel-image {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 100px !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+/* Hero Background Slideshow Fallback */
+.elementor-element-40f82713 {
+    background-image: url('wp-content/uploads/2023/12/top2-min.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.elementor-element-40f82713::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 10, 25, 0.45);
+    z-index: 0;
+}
+
+.elementor-element-40f82713 > .elementor-container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure Swiper slides display properly */
+.elementor-main-swiper.swiper {
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.elementor-main-swiper .swiper-wrapper {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.elementor-widget-media-carousel .swiper-slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 110px !important;
+    padding: 10px !important;
+}
+
+/* Testimonial styles */
+.elementor-widget-testimonial-carousel .swiper-slide {
+    box-sizing: border-box;
+}
+
+/* Slides widget (Mission/Vision section) */
+.elementor-widget-slides .swiper-slide {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 400px !important;
+}
